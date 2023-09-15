@@ -1,0 +1,53 @@
+body {
+ text-align: center;
+ background-color: #ff9a55;
+}
+
+h1 {
+ font-size: 5rem;
+ color: #e7b2ff;
+ font-family: "Arvo", cursive;
+ text-shadow: 3px 1px #ffea6c;
+}
+
+
+.cat {
+ background-image: url("images/cat.webp");
+}
+
+.puppy {
+ background-image: url("image/dog.webp");
+}
+
+.bee {
+ background-image: url("image/bee.webp");
+ background-position: right;
+}
+
+.monkey {
+ background-image: url("image/monkey.webp");
+ background-size: cover;
+}
+
+.btn {
+ background-color: white;
+ outline: none;
+ border: 20px solid #54fffb;
+ border-radius: 25px;
+ font-size: 5rem;
+ font-family: 'Roboto', cursive;
+ font-weight: 900;
+ line-height: 5;
+ color: #e7b2ff;
+ text-shadow: 3px 1px #ffea6c;
+ display: inline-block;
+ width: 500px;
+ height: 500px;
+ margin: 15px;
+ text-align: center;
+ cursor: pointer;
+}
+
+.btn:hover {
+transform: scale(1.05);
+}
